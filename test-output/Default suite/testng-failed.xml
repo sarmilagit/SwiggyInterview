@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.interview.swiggy.generic.BaseClass">
+      <class name="com.interview.swiggy.testcases.Sample1">
         <methods>
           <include name="configbef"/>
-          <include name="test"/>
+          <include name="main"/>
           <include name="AfterSuite"/>
           <include name="beforeMethodConfig"/>
           <include name="afterMethodConfig"/>
           <include name="configsuite"/>
           <include name="afterClasConfig"/>
         </methods>
-      </class> <!-- com.interview.swiggy.generic.BaseClass -->
+      </class> <!-- com.interview.swiggy.testcases.Sample1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
